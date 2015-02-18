@@ -1,0 +1,55 @@
+h1 {
+    font-family: 'Bangers', serif;
+    font-size: 72px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+h2 {
+    font-family: 'Bangers', serif;
+    font-size: 60px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+h3 {
+    font-family: 'Bangers', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+h4 {
+    font-family: 'Bangers', serif;
+    font-size: 24px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+
+
+.nav
+{
+    list-style-type: none;
+}
+
+.school {
+    background-color: teal;
+    color: white;
+    border-bottom: 1px solid #000;
+    padding: 5px 20px 30px;
+}
+
+.music {
+    background-color: rgb(153,102,153);
+    color: rgb(255,255,204);
+    border-bottom: 1px solid #000;
+    padding: 5px 20px 30px;
+}
+
+.passions {
+    background-color: #666699;
+    color: #FFFFFF;
+    border-bottom: 1px solid #000;
+    padding: 5px 20px 30px;
+}
+
+.contacts {
+    background-color: #994f68;
+    color: #FFFFFF;
+    border-bottom: 1px solid #000;
+    padding: 5px 20px 30px;
+}
