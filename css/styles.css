@@ -1,3 +1,8 @@
+body
+{
+    margin: 0;
+}
+
 .titres
 {
     font-family: 'Bangers', serif;
@@ -8,14 +13,17 @@ h1
 {
     font-size: 72px;
 }
+
 h2
 {
     font-size: 60px;
 }
+
 h3
 {
     font-size: 48px;
 }
+
 h4
 {
     font-size: 24px;
@@ -36,6 +44,7 @@ h4
 {
     background-color: rgb(153,102,153);
     color: rgb(255,255,204);
+
 }
 
 .passions
@@ -60,5 +69,4 @@ header
 {
     background-image: url("https://scontent-iad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10402658_785912414753319_4950261333426875335_n.jpg?oh=9940b188655dccb9110704f3139b5b3f&oe=558769B0");
     background-size: cover;
-
 }
