@@ -1,7 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
 body
 {
-    margin: 0px;
+    margin: 0;
     font-family: cursive;
+    padding-top: 31px;
 }
 
 .titres
@@ -61,13 +66,14 @@ h4
 
 .indice
 {
+    border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     padding: 5px 20px 30px;
 }
 
 header
 {
-    background-image: url("https://scontent-iad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10402658_785912414753319_4950261333426875335_n.jpg?oh=9940b188655dccb9110704f3139b5b3f&oe=558769B0");
+    background-image: url(../images/bois.jpg);
     background-size: cover;
     text-align: center;
 }
@@ -76,16 +82,11 @@ h4.titres.devise
 {
     text-align: center;
 }
+
 a.liens>img
 {
     height: 40px;
     width: 40px;
-}
-
-ul.bandlist li>img
-{
-    height: 315px;
-    width: 420px;
 }
 
 a
@@ -98,8 +99,9 @@ ul.nav>li
     display: inline-block;
     border: 3px solid black;
     padding: 3px;
-    margin: 3%;
+    margin: 1%;
     font-size: x-large;
+
 }
 
 ul.nav li a
@@ -110,4 +112,41 @@ ul.nav li a
 #contacts ul li
 {
     display: inline-block;
+}
+
+#menu {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: grey;
+    border: 5px double darkgoldenrod;
+}
+
+#menu ul {
+    margin: 0;
+}
+
+#menu ul li{
+    text-align: center;
+    width: 250px;
+}
+
+.oldband{
+    display: inline-block;
+    width: 385px;
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 2px;
+}
+
+li.oldband>h3{
+    text-align: center;
+}
+
+li.oldband>img
+{
+    width: 368px;
+    height: 208px;
 }
