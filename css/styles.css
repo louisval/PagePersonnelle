@@ -1,7 +1,10 @@
+/*tous les éléments*/
 *{
     box-sizing: border-box;
 }
 
+
+/*body*/
 body
 {
     margin: 0;
@@ -9,6 +12,8 @@ body
     padding-top: 31px;
 }
 
+
+/*tous les titres*/
 .titres
 {
     font-family: 'Bangers', serif;
@@ -34,6 +39,24 @@ h4
 {
     font-size: 24px;
 }
+
+
+/*header*/
+
+header
+{
+    background-image: url(../images/bois.jpg);
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+
+h4.titres.devise
+{
+    text-align: center;
+}
+
+
 
 .nav, .bandlist, .contactlist
 {
@@ -71,17 +94,7 @@ h4
     padding: 5px 20px 30px;
 }
 
-header
-{
-    background-image: url(../images/bois.jpg);
-    background-size: cover;
-    text-align: center;
-}
 
-h4.titres.devise
-{
-    text-align: center;
-}
 
 a.liens>img
 {
@@ -92,16 +105,6 @@ a.liens>img
 a
 {
     text-decoration: none;
-}
-
-ul.nav>li
-{
-    display: inline-block;
-    border: 3px solid black;
-    padding: 3px;
-    margin: 1%;
-    font-size: x-large;
-
 }
 
 ul.nav li a
@@ -126,11 +129,18 @@ ul.nav li a
 
 #menu ul {
     margin: 0;
+    text-align: center;
+    padding: 0;
 }
 
 #menu ul li{
     text-align: center;
     width: 250px;
+    display: inline-block;
+    border: 3px solid black;
+    padding: 3px;
+    margin: 1%;
+    font-size: x-large;
 }
 
 .oldband{
